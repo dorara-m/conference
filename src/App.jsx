@@ -1,49 +1,11 @@
 import "./reset.scss";
 import "./App.scss";
+import Header from "./components/header/header";
 
 function App() {
   return (
     <div className="App">
-      <header className="header">
-        <div className="header_logo">
-          <div className="header_logo_img">
-            <img src="/gyroid-logo.png" alt="" />
-          </div>
-          <div className="header_logo_head">Gyroid is everywhere</div>
-          <div className="header_logo_sub">
-            Alan Schoen 100th birth anniversary
-          </div>
-        </div>
-        <div className="header_menu">
-          <ul>
-            <li>
-              <a href="">About</a>
-            </li>
-            <li>
-              <a href="">Program</a>
-            </li>
-            <li>
-              <a href="">
-                Abstract
-                <br />
-                Submission
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Registration &<br />
-                Accomodation
-              </a>
-            </li>
-            <li>
-              <a href="">Venue</a>
-            </li>
-            <li>
-              <a href="">More</a>
-            </li>
-          </ul>
-        </div>
-      </header>
+      <Header />
       <main>
         <div className="container">
           <div className="textArea">
