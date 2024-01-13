@@ -10,6 +10,10 @@
     grid-gap: 7px;
     grid-template-areas: "itemA itemB" "itemA itemC";
     line-height: 1;
+    transition: 0.3s;
+    &:hover {
+      opacity: 0.6;
+    }
     &_img {
       grid-area: itemA;
       width: 48px;
@@ -39,6 +43,12 @@
         align-items: center;
         &:not(:last-child) {
           border-right: 1px solid var(--color-border);
+        }
+        a {
+          transition: 0.3s;
+          &:hover {
+            opacity: 0.6;
+          }
         }
       }
     }

@@ -31,7 +31,7 @@ export default function Header(props) {
   return (
     <>
       <header className="header">
-        <div className="header_logo">
+        <a href="/" className="header_logo">
           <div className="header_logo_img">
             <img src="/gyroid-logo.png" alt="" />
           </div>
@@ -39,7 +39,7 @@ export default function Header(props) {
           <div className="header_logo_sub">
             Alan Schoen 100th birth anniversary
           </div>
-        </div>
+        </a>
         <div className="header_menu">
           <ul>
             {menuList.map((menu, index) => {

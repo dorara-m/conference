@@ -1,10 +1,8 @@
-import "./reset.scss";
-import "./App.scss";
-import Header from "./components/header/header";
+import Header from "../components/header/header";
 
-function App() {
+export default function Home() {
   return (
-    <div className="App">
+    <div className="home">
       <Header />
       <main>
         <div className="container">
@@ -42,5 +40,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
