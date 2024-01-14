@@ -1,33 +1,7 @@
 import "./header.scss";
+import { menuList } from "../../utils/menuList.js";
 
 export default function Header(props) {
-  const menuList = [
-    {
-      name: "About",
-      link: "/about",
-    },
-    {
-      name: "Program",
-      link: "/program",
-    },
-    {
-      name: "Abstract<br/>Submission",
-      link: "/abstract",
-    },
-    {
-      name: "Registration &<br/>Accomodation",
-      link: "/registration",
-    },
-    {
-      name: "Venue",
-      link: "/venue",
-    },
-    {
-      name: "More",
-      link: "/more",
-    },
-  ];
-
   return (
     <>
       <header className="header">

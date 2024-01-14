@@ -1,0 +1,13 @@
+.spNavi {
+  padding: 40px 0;
+  li:not(:last-child) {
+    border-bottom: 1px solid #bbb;
+  }
+  a {
+    font-size: 20px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
