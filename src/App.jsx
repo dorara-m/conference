@@ -9,7 +9,7 @@ import About from "./pages/About";
 import Program from "./pages/Program";
 import Abstract from "./pages/Abstract";
 import Registration from "./pages/Registration";
-import Venue from "./pages/Venue";
+import Venue from "./pages/venue/Venue";
 import Photos from "./pages/Photos";
 
 export default function App() {
