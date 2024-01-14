@@ -2,11 +2,14 @@ import "./spNavi.scss";
 import { menuList } from "../../utils/menuList.js";
 
 export default function spNavi() {
+  const lists = [...menuList];
+  lists.unshift({ name: "Home", link: "/" });
+
   return (
     <div className="spNavi">
       <div className="container">
         <ul>
-          {menuList.map((menu, index) => {
+          {lists.map((menu, index) => {
             return (
               <li key={index}>
                 <a

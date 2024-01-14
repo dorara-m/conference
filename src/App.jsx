@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Program from "./pages/Program";
 import Abstract from "./pages/Abstract";
 import Registration from "./pages/Registration";
+import Venue from "./pages/Venue";
 
 export default function App() {
   const isPC = window.innerWidth >= 768;
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/program" element={<Program />} />
           <Route path="/abstract" element={<Abstract />} />
           <Route path="/registration" element={<Registration />} />
+          <Route path="/venue" element={<Venue />} />
         </Routes>
         {!isPC && <SpNavi />}
       </main>

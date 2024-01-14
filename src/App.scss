@@ -1,3 +1,5 @@
+@import "./styles/functions.scss";
+
 :root {
   --font-en: Times, serif;
   --color-text: #454142;
@@ -49,6 +51,16 @@ ol {
     margin-top: 8px;
   }
 }
+.imageList {
+  display: grid;
+  gap: 24px;
+  @include mq() {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  div {
+    flex-basis: 33.3%;
+  }
+}
 
 .hidden {
   display: none;
@@ -56,7 +68,7 @@ ol {
 
 .hiddenSp {
   display: block;
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 }
