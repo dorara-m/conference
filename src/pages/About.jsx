@@ -23,22 +23,22 @@ export default function About() {
         <p>
           The international symposium aims to achieve the following three
           objectives:
+          <ol>
+            <li>
+              Discover gyroid in nature and create unconventional materials,
+              exemplified by molecular gyroids.
+            </li>
+            <li>
+              Renovate existing soft gyroid research with unprecedented material
+              design principles.
+            </li>
+            <li>
+              Discover the foundational principles (geometry and topology) and
+              novel functionalities of gyroids, leading to a rapid
+              transformation and innovation in the material science of gyroids.
+            </li>
+          </ol>
         </p>
-        <ol>
-          <li>
-            Discover gyroid in nature and create unconventional materials,
-            exemplified by molecular gyroids.
-          </li>
-          <li>
-            Renovate existing soft gyroid research with unprecedented material
-            design principles.
-          </li>
-          <li>
-            Discover the foundational principles (geometry and topology) and
-            novel functionalities of gyroids, leading to a rapid transformation
-            and innovation in the material science of gyroids.
-          </li>
-        </ol>
         <p>
           By setting these three goals – creation of gyroid substances,
           renovation of traditional gyroid research, and transformation of
