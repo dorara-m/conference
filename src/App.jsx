@@ -19,7 +19,7 @@ export default function App() {
         </Routes>
         {!isPC && <SpNavi />}
       </main>
-      <Footer />
+      {!isPC && <Footer />}
     </div>
   );
 }

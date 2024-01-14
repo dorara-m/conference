@@ -5,12 +5,7 @@
   --color-main: rgb(255, 42, 94);
   --color-sub: rgb(255, 140, 69);
 }
-.App {
-  font-family: var(--font-en);
-  color: var(--color-text);
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
+
 img {
   max-width: 100%;
 }
@@ -19,11 +14,43 @@ a {
   text-decoration: none;
 }
 
+.App {
+  font-family: var(--font-en);
+  color: var(--color-text);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
 .container {
   padding: 0 24px;
   max-width: 1080px;
   margin-right: auto;
   margin-left: auto;
+}
+
+// 検討
+p {
+  margin-bottom: 24px;
+  strong {
+    font-weight: bold;
+  }
+}
+ol {
+  margin-bottom: 24px;
+  li {
+    counter-increment: item;
+  }
+  li::before {
+    content: counter(item) ")";
+    margin-right: 8px;
+  }
+  li + li {
+    margin-top: 8px;
+  }
+}
+
+.hidden {
+  display: none;
 }
 
 .hiddenSp {
