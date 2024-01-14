@@ -17,8 +17,8 @@ export default function About() {
           symposium entitled “Alan Schoen 100th birth anniversary – Gyroid is
           everywhere” from November 19 to November 22, 2024, at Kindai
           University, Osaka, Japan. This symposium is made possible through the
-          support of Kindai University and Toyota Physical and Chemical Research
-          Institute.
+          support of Toyota Riken, The Simons Foundation, and Kindai University
+          and Kindai University.
         </p>
         <p>
           The international symposium aims to achieve the following three

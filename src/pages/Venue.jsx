@@ -4,7 +4,7 @@ export default function Venue() {
   return (
     <div className="venue">
       <h1 className="hidden">Venue</h1>
-      <Section heading="Maps & Photo">
+      <Section heading="Venue">
         <div className="imageList">
           <div>
             <img src="/venue/pic_campus_map01.jpg" alt="" />

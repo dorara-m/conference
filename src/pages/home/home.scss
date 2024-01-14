@@ -109,3 +109,27 @@
     }
   }
 }
+
+.contact {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  background-color: #222;
+  color: var(--color-sub);
+  line-height: 1;
+  text-align: center;
+  @include mq() {
+    height: 200px;
+  }
+  h2 {
+    font-size: 32px;
+    @include mq() {
+      font-size: 40px;
+    }
+  }
+  a {
+    display: block;
+    margin-top: 24px;
+    text-decoration: underline;
+  }
+}

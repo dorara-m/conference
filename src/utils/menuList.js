@@ -20,7 +20,7 @@ export const menuList = [
     link: "/venue",
   },
   {
-    name: "More",
-    link: "/more",
+    name: "Photos",
+    link: "/photos",
   },
 ];
