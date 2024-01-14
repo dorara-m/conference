@@ -7,6 +7,8 @@ import Footer from "./components/footer/footer";
 import Home from "./pages/home/Home";
 import About from "./pages/About";
 import Program from "./pages/Program";
+import Abstract from "./pages/Abstract";
+import Registration from "./pages/Registration";
 
 export default function App() {
   const isPC = window.innerWidth >= 768;
@@ -18,6 +20,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/program" element={<Program />} />
+          <Route path="/abstract" element={<Abstract />} />
+          <Route path="/registration" element={<Registration />} />
         </Routes>
         {!isPC && <SpNavi />}
       </main>

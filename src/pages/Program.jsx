@@ -2,7 +2,7 @@ import Section from "../components/section/section";
 
 export default function Program() {
   return (
-    <div className="About">
+    <div className="Program">
       <h1 className="hidden">Program</h1>
       <Section heading="Speakers">
         <Section heading="Tutorial lectures" h3>
