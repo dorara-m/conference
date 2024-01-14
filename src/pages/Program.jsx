@@ -1,9 +1,10 @@
+import PageHeader from "../components/pageHeader/pageHeader";
 import Section from "../components/section/section";
 
 export default function Program() {
   return (
     <div className="Program">
-      <h1 className="hidden">Program</h1>
+      <PageHeader heading="Program" />
       <Section heading="Speakers">
         <Section heading="Tutorial lectures" h3>
           <ul>

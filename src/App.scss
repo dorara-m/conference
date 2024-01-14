@@ -37,7 +37,6 @@ p {
     font-weight: bold;
   }
 }
-
 ol {
   margin-top: 8px;
   li {
@@ -49,16 +48,6 @@ ol {
   }
   li + li {
     margin-top: 8px;
-  }
-}
-.imageList {
-  display: grid;
-  gap: 24px;
-  @include mq() {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  div {
-    flex-basis: 33.3%;
   }
 }
 

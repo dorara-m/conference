@@ -1,9 +1,10 @@
+import PageHeader from "../components/pageHeader/pageHeader";
 import Section from "../components/section/section";
 
 export default function About() {
   return (
     <div className="About">
-      <h1 className="hidden">About</h1>
+      <PageHeader heading="About" />
       <Section heading="Greeting">
         <p>
           Alan Hugh Schoen was an American physicist and computer scientist

@@ -1,10 +1,11 @@
+import PageHeader from "../components/pageHeader/pageHeader";
 import Section from "../components/section/section";
 
 export default function Venue() {
   return (
     <div className="venue">
-      <h1 className="hidden">Venue</h1>
-      <Section heading="Venue">
+      <PageHeader heading="Venue" />
+      <Section>
         <div className="imageList">
           <div>
             <img src="/venue/pic_campus_map01.jpg" alt="" />

@@ -1,0 +1,26 @@
+@import "../../styles/functions.scss";
+
+.imageGallery {
+  padding: 56px 0;
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    @include mq() {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    li {
+      height: 160px;
+      position: relative;
+      overflow: hidden;
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}
