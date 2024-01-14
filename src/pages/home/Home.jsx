@@ -24,6 +24,12 @@ export default function Home() {
                   <li>Kindai University</li>
                 </ul>
               </dd>
+              <dt>Contact</dt>
+              <dd>
+                <a href="mailto:dotera@phys.kindai.ac.jp">
+                  dotera@phys.kindai.ac.jp
+                </a>
+              </dd>
             </dl>
           </div>
           <div className="imgArea">
@@ -36,12 +42,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="contact">
+      {/* <div className="contact">
         <div className="container">
           <h2>Contact</h2>
           <a href="mailto:dotera@phys.kindai.ac.jp">dotera@phys.kindai.ac.jp</a>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
