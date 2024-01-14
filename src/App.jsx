@@ -6,6 +6,7 @@ import SpNavi from "./components/spNavi/spNavi";
 import Footer from "./components/footer/footer";
 import Home from "./pages/home/Home";
 import About from "./pages/About";
+import Program from "./pages/Program";
 
 export default function App() {
   const isPC = window.innerWidth >= 768;
@@ -16,6 +17,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/program" element={<Program />} />
         </Routes>
         {!isPC && <SpNavi />}
       </main>
