@@ -29,9 +29,9 @@ export default function Program() {
             <li>Xiangbing Zeng (Sheffield)</li>
             <li>Takahiro Ichikawa (TUAT)</li>
             <li>Kunio Awaga (Nagoya)</li>
-            <li>Lucja Kowlewska (Warsaw)</li>
+            <li>Łucja Kowlewska (Warsaw)</li>
             <li>Vinodkumar Saranathan (Krea)</li>
-            <li>Philipp Schoenhoefer (Michigan)</li>
+            <li>Philipp Schönhöfer (Michigan)</li>
             {/* <li>Not yet confirmed. Justin Llandro (Tohoku)</li> */}
           </ul>
         </Section>
