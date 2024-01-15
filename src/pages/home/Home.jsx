@@ -3,7 +3,7 @@ import "./Home.scss";
 export default function Home() {
   return (
     <>
-      <div className="home">
+      <div className="Home">
         <div className="container">
           <div className="textArea">
             <h1>Gyroid is everywhere</h1>
