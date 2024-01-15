@@ -12,7 +12,7 @@ export default function Program() {
             <li>Stephen Hyde (ANU)</li>
           </ul>
         </Section>
-        <Section heading="??" h3>
+        <Section heading="Discussion Leader" h3>
           <ul>
             <li>Gerd Schröder‐Turk (Murdoch)</li>
           </ul>

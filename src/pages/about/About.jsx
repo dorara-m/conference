@@ -1,5 +1,6 @@
-import PageHeader from "../components/pageHeader/pageHeader";
-import Section from "../components/section/section";
+import PageHeader from "../../components/pageHeader/pageHeader";
+import Section from "../../components/section/section";
+import "./About.scss";
 
 export default function About() {
   return (
@@ -18,12 +19,13 @@ export default function About() {
           symposium entitled “Alan Schoen 100th birth anniversary – Gyroid is
           everywhere” from November 19 to November 22, 2024, at Kindai
           University, Osaka, Japan. This symposium is made possible through the
-          support of Toyota Riken, The Simons Foundation, and Kindai University
-          and Kindai University.
+          support of Toyota Riken, The Simons Foundation, and Kindai University.
         </p>
         <p>
-          The international symposium aims to achieve the following three
-          objectives:
+          <span>
+            The international symposium aims to achieve the following three
+            objectives:
+          </span>
           <ol>
             <li>
               Discover gyroid in nature and create unconventional materials,
@@ -74,7 +76,19 @@ export default function About() {
           </ul>
         </Section>
       </Section>
-      <Section heading="Support"></Section>
+      <Section heading="Support">
+        <ul className="support">
+          <li>
+            <img src="/support/logo01.png" alt="" />
+          </li>
+          <li>
+            <img src="/support/logo02.png" alt="" />
+          </li>
+          <li>
+            <img src="/support/logo03.png" alt="" />
+          </li>
+        </ul>
+      </Section>
       <Section heading="Important dates" hasBg>
         <p>
           1st circular <strong>2023/12/24</strong>

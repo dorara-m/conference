@@ -5,7 +5,7 @@ import Header from "./components/header/header";
 import SpNavi from "./components/spNavi/spNavi";
 import Footer from "./components/footer/footer";
 import Home from "./pages/home/Home";
-import About from "./pages/About";
+import About from "./pages/about/About";
 import Program from "./pages/Program";
 import Abstract from "./pages/Abstract";
 import Registration from "./pages/Registration";
