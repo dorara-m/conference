@@ -1,5 +1,5 @@
 import PageHeader from "../../components/pageHeader/pageHeader";
-// import "./Venue.scss";
+import "./Venue.scss";
 
 export default function Venue() {
   const links = [
