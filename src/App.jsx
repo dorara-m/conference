@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import "./reset.scss";
 import "./App.scss";
 import Header from "./components/header/header";
-import SpNavi from "./components/spNavi/spNavi";
+import SpMenu from "./components/spMenu/spMenu";
 import Footer from "./components/footer/footer";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
@@ -16,7 +16,7 @@ export default function App() {
   const isPC = window.innerWidth >= 768;
   return (
     <div className="App">
-      {isPC && <Header />}
+      {isPC ? <Header /> : <SpMenu />}
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -27,9 +27,8 @@ export default function App() {
           <Route path="/venue" element={<Venue />} />
           <Route path="/photos" element={<Photos />} />
         </Routes>
-        {!isPC && <SpNavi />}
       </main>
-      {!isPC && <Footer />}
+      <Footer />
     </div>
   );
 }
