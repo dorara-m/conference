@@ -14,6 +14,8 @@ import Photos from "./pages/Photos";
 
 export default function App() {
   const isPC = window.innerWidth >= 768;
+  const pathname = window.location.pathname;
+
   return (
     <div className="App">
       {isPC ? <Header /> : <SpMenu />}
@@ -28,7 +30,7 @@ export default function App() {
           <Route path="/photos" element={<Photos />} />
         </Routes>
       </main>
-      <Footer />
+      {pathname !== "/" && <Footer />}
     </div>
   );
 }

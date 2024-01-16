@@ -1,11 +1,11 @@
-import "./footer.scss";
+import styles from "./footer.module.scss";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className={styles.footer}>
       <div className="container">
-        <div className="copyright">© 2024 Tomonari Dotera</div>
-        <div className="footer_logo">
+        <div className={styles.copyright}>© 2024 Tomonari Dotera</div>
+        <div className={styles.logo}>
           <img src="/gyroid.png" alt="" />
         </div>
       </div>
