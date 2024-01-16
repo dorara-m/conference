@@ -25,11 +25,7 @@ export default function Home() {
                 </ul>
               </dd>
               <dt>Contact</dt>
-              <dd>
-                <a href="mailto:dotera@phys.kindai.ac.jp">
-                  dotera@phys.kindai.ac.jp
-                </a>
-              </dd>
+              <dd>gyroidiseverywhere@gmail.com</dd>
             </dl>
           </div>
           <div className="imgArea">
