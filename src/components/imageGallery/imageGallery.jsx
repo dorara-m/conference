@@ -1,4 +1,4 @@
-import "./imageGallery.scss";
+import styles from "./imageGallery.module.scss";
 
 export default function imageGallery() {
   const numOfImages = 16;
@@ -9,7 +9,7 @@ export default function imageGallery() {
   );
 
   return (
-    <div className="imageGallery">
+    <div className={styles.imageGallery}>
       <div className="container">
         <ul>
           {imageArray.map((photos, index) => {

@@ -1,13 +1,13 @@
-import "./Home.scss";
+import styles from "./Home.module.scss";
 
 export default function Home() {
   return (
     <>
-      <div className="Home">
+      <div className={styles.home}>
         <div className="container">
-          <div className="textArea">
+          <div className={styles.textArea}>
             <h1>Gyroid is everywhere</h1>
-            <div className="subText">
+            <div className={styles.subTitle}>
               Alan Schoen
               <br />
               100th birth anniversary
@@ -28,22 +28,16 @@ export default function Home() {
               <dd>gyroidiseverywhere@gmail.com</dd>
             </dl>
           </div>
-          <div className="imgArea">
-            <div className="img01">
+          <div className={styles.imgArea}>
+            <div className={styles.img01}>
               <img src="/teacher.png" alt="" />
             </div>
-            <div className="img02">
+            <div className={styles.img02}>
               <img src="/gyroid.png" alt="" />
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="contact">
-        <div className="container">
-          <h2>Contact</h2>
-          <a href="mailto:dotera@phys.kindai.ac.jp">dotera@phys.kindai.ac.jp</a>
-        </div>
-      </div> */}
     </>
   );
 }

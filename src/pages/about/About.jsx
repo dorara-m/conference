@@ -1,6 +1,8 @@
 import PageHeader from "../../components/pageHeader/pageHeader";
 import Section from "../../components/section/section";
-import "./About.scss";
+import TextList from "../../components/textList/textList";
+
+import styles from "./About.module.scss";
 
 export default function About() {
   return (
@@ -60,24 +62,28 @@ export default function About() {
       </Section>
       <Section heading="Organization" hasBg>
         <Section heading="International Advisors" h3>
-          <ul>
-            <li>Stephen T. Hyde (ANU)</li>
-            <li>Randall D. Kamien (UPENN)</li>
-            <li>Yushu Matsuhita (Toyota Riken)</li>
-            <li>Gerd Schröder‐Turk (Murdoch)</li>
-          </ul>
+          <TextList
+            list={[
+              "Stephen Hyde (ANU)",
+              "Randall Kamien (UPENN)",
+              "Yushu Matsuhita (Toyota Riken)",
+              "Gerd Schröder‐Turk (Murdoch)",
+            ]}
+          />
         </Section>
         <Section heading="Local organizers" h3>
-          <ul>
-            <li>Tomonari Dotera (Kindai) chair</li>
-            <li>Atsushi Takano (Nagoya)</li>
-            <li>Takahiro Ichikawa (TUAT)</li>
-            <li>Akiko Sugahara (Kindai)</li>
-          </ul>
+          <TextList
+            list={[
+              "Tomonari Dotera (Kindai) chair",
+              "Atsushi Takano (Nagoya)",
+              "Takahiro Ichikawa (TUAT)",
+              "Akiko Sugahara (Kindai)",
+            ]}
+          />
         </Section>
       </Section>
       <Section heading="Support">
-        <ul className="support">
+        <ul className={styles.support}>
           <li>
             <img src="/support/logo01.png" alt="" />
           </li>
