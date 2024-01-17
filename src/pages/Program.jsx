@@ -32,6 +32,7 @@ export default function Program() {
               "Łucja Kowlewska (Warsaw)",
               "Vinodkumar Saranathan (Krea)",
               "Philipp Schönhöfer (Michigan)",
+              "Justin Llandro (Sumitomo Chemical)",
               // "Not yet confirmed. Justin Llandro (Tohoku)",
             ]}
           />

@@ -39,7 +39,7 @@ button {
 }
 
 // 検討
-p {
+.paragraph {
   margin-bottom: 24px;
   strong {
     font-weight: bold;
@@ -47,15 +47,21 @@ p {
 }
 ol {
   margin-top: 8px;
-  li {
+  padding-left: 1.4em;
+  > li {
     counter-increment: item;
-  }
-  li::before {
-    content: counter(item) ")";
-    margin-right: 8px;
-  }
-  li + li {
-    margin-top: 8px;
+    text-indent: -1.4em;
+    &::before {
+      content: counter(item) ")";
+      margin-right: 8px;
+    }
+    & + li {
+      margin-top: 8px;
+    }
+    > ul {
+      padding-left: 1.4em;
+      font-weight: bold;
+    }
   }
 }
 

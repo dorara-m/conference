@@ -9,25 +9,25 @@ export default function About() {
     <div className="About">
       <PageHeader heading="About" />
       <Section heading="Greeting">
-        <p>
+        <p className="paragraph">
           Alan Hugh Schoen was an American physicist and computer scientist
           renowned for his discovery of the gyroid, an infinitely connected
           triply periodic minimal surface. He was born on December 11, 1924, in
           Mount Vernon, New York, and unfortunately, he passed away on July 26,
           2023, in Carbondale, Illinois, United States.
         </p>
-        <p>
+        <p className="paragraph">
           In commemoration of his 100th birth anniversary, we are organizing a
           symposium entitled “Alan Schoen 100th birth anniversary – Gyroid is
           everywhere” from November 19 to November 22, 2024, at Kindai
           University, Osaka, Japan. This symposium is made possible through the
           support of Toyota Riken, The Simons Foundation, and Kindai University.
         </p>
-        <p>
-          <span>
+        <div className="paragraph">
+          <p>
             The international symposium aims to achieve the following three
             objectives:
-          </span>
+          </p>
           <ol>
             <li>
               Discover gyroid in nature and create unconventional materials,
@@ -42,9 +42,16 @@ export default function About() {
               novel functionalities of gyroids, leading to a rapid
               transformation and innovation in the material science of gyroids.
             </li>
+            <li>
+              <span>Registration Fees:</span>
+              <ul>
+                <li>Regular: 10,000 JPY</li>
+                <li>Student: 5,000 JPY</li>
+              </ul>
+            </li>
           </ol>
-        </p>
-        <p>
+        </div>
+        <p className="paragraph">
           By setting these three goals – creation of gyroid substances,
           renovation of traditional gyroid research, and transformation of
           gyroid science – the symposium seeks to bring together researchers who
@@ -66,7 +73,7 @@ export default function About() {
             list={[
               "Stephen Hyde (ANU)",
               "Randall Kamien (UPENN)",
-              "Yushu Matsuhita (Toyota Riken)",
+              "Yushu Matsushita (Toyota Riken)",
               "Gerd Schröder‐Turk (Murdoch)",
             ]}
           />
@@ -96,7 +103,7 @@ export default function About() {
         </ul>
       </Section>
       <Section heading="Important dates" hasBg>
-        <p>
+        <p className="paragraph">
           1st circular <strong>2023/12/24</strong>
         </p>
       </Section>
