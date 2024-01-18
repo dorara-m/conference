@@ -8,7 +8,7 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Program from "./pages/Program";
 import Abstract from "./pages/Abstract";
-import Registration from "./pages/Registration";
+import Registration from "./pages/registration/Registration";
 import Venue from "./pages/venue/Venue";
 import Photos from "./pages/Photos";
 
