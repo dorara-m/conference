@@ -1,7 +1,7 @@
 @import "../../styles/functions.scss";
 
 .home {
-  min-height: calc(100vh - 78px);
+  min-height: calc(100vh);
   position: relative;
   color: #fff;
   overflow: hidden;
@@ -11,6 +11,9 @@
     var(--color-sub) 30%,
     var(--color-main) 100%
   );
+  @include mq() {
+    min-height: calc(100vh - 78px);
+  }
 
   &::before {
     display: none;

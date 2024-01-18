@@ -24,8 +24,6 @@ export default function Home() {
                   <li>Kindai University</li>
                 </ul>
               </dd>
-              <dt>Contact</dt>
-              <dd>gyroidiseverywhere@gmail.com</dd>
             </dl>
           </div>
           <div className={styles.imgArea}>
