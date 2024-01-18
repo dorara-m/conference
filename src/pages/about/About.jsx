@@ -42,13 +42,6 @@ export default function About() {
               novel functionalities of gyroids, leading to a rapid
               transformation and innovation in the material science of gyroids.
             </li>
-            <li>
-              <span>Registration Fees:</span>
-              <ul>
-                <li>Regular: 10,000 JPY</li>
-                <li>Student: 5,000 JPY</li>
-              </ul>
-            </li>
           </ol>
         </div>
         <p className="paragraph">
