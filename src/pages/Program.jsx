@@ -1,11 +1,10 @@
-import PageHeader from "../components/pageHeader/pageHeader";
+import Layout from "../components/Layout/Layout";
 import Section from "../components/section/section";
 import TextList from "../components/textList/textList";
 
 export default function Program() {
   return (
-    <div className="Program">
-      <PageHeader heading="Program" />
+    <Layout>
       <Section heading="Speakers">
         <Section heading="Tutorial lectures" h3>
           <TextList list={["Randall Kamien (UPENN)", "Stephen Hyde (ANU)"]} />
@@ -38,6 +37,6 @@ export default function Program() {
           />
         </Section>
       </Section>
-    </div>
+    </Layout>
   );
 }

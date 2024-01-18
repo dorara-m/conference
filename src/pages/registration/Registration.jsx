@@ -1,11 +1,10 @@
-import PageHeader from "../../components/pageHeader/pageHeader";
+import Layout from "../../components/Layout/Layout";
 import Section from "../../components/section/section";
 import styles from "./Registration.module.scss";
 
 export default function Registration() {
   return (
-    <div className="registration">
-      <PageHeader heading="Registration & Accomodation"></PageHeader>
+    <Layout>
       <Section heading="Registration fees">
         <table className={styles.table}>
           <thead>
@@ -49,6 +48,6 @@ export default function Registration() {
           </tbody>
         </table>
       </Section>
-    </div>
+    </Layout>
   );
 }

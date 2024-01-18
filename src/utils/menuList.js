@@ -1,26 +1,28 @@
 export const menuList = [
   {
     name: "About",
-    link: "/about",
+    path: "/about",
   },
   {
     name: "Program",
-    link: "/program",
+    path: "/program",
   },
   {
-    name: "Abstract <br class='hiddenSp' />Submission",
-    link: "/abstract",
+    name: "Abstract Submission",
+    path: "/abstract",
+    forHeader: "Abstract <br/>Submission",
   },
   {
-    name: "Registration & <br class='hiddenSp' />Accomodation",
-    link: "/registration",
+    name: "Registration & Accomodation",
+    path: "/registration",
+    forHeader: "Registration & <br/>Accomodation",
   },
   {
     name: "Venue",
-    link: "/venue",
+    path: "/venue",
   },
   {
     name: "Photos",
-    link: "/photos",
+    path: "/photos",
   },
 ];

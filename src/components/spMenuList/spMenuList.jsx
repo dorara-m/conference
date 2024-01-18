@@ -3,7 +3,7 @@ import styles from "./spMenuList.module.scss";
 
 export default function spMenuList() {
   const lists = [...menuList];
-  lists.unshift({ name: "Home", link: "/" });
+  lists.unshift({ name: "Home", path: "/" });
 
   return (
     <ul className={styles.list}>
@@ -11,7 +11,7 @@ export default function spMenuList() {
         return (
           <li key={index}>
             <a
-              href={menu.link}
+              href={menu.path}
               dangerouslySetInnerHTML={{ __html: menu.name }}
             ></a>
           </li>

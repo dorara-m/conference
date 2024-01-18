@@ -18,8 +18,10 @@ export default function Header(props) {
               return (
                 <li key={index}>
                   <a
-                    href={menu.link}
-                    dangerouslySetInnerHTML={{ __html: menu.name }}
+                    href={menu.path}
+                    dangerouslySetInnerHTML={{
+                      __html: menu.forHeader ? menu.forHeader : menu.name,
+                    }}
                   ></a>
                 </li>
               );

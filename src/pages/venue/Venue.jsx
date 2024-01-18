@@ -22,6 +22,7 @@ export default function Venue() {
   ];
 
   return (
+    // なぜか/photos/と同様、末尾にスラッシュがついてしまいpathnameが一致しない。
     <div className="venue">
       <PageHeader heading="Venue" />
       <div className="container">

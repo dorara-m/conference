@@ -1,4 +1,4 @@
-import PageHeader from "../../components/pageHeader/pageHeader";
+import Layout from "../../components/Layout/Layout";
 import Section from "../../components/section/section";
 import TextList from "../../components/textList/textList";
 
@@ -6,8 +6,7 @@ import styles from "./About.module.scss";
 
 export default function About() {
   return (
-    <div className="About">
-      <PageHeader heading="About" />
+    <Layout>
       <Section heading="Greeting">
         <p className="paragraph">
           Alan Hugh Schoen was an American physicist and computer scientist
@@ -100,6 +99,6 @@ export default function About() {
           1st circular <strong>2023/12/24</strong>
         </p>
       </Section>
-    </div>
+    </Layout>
   );
 }

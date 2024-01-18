@@ -1,11 +1,10 @@
-import PageHeader from "../components/pageHeader/pageHeader";
+import Layout from "../components/Layout/Layout";
 import Section from "../components/section/section";
 
 export default function Abstract() {
   return (
-    <div className="Abstract">
-      <PageHeader heading="Abstract Submission"></PageHeader>
+    <Layout>
       <Section heading="Coming later..."></Section>
-    </div>
+    </Layout>
   );
 }
