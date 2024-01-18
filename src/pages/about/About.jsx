@@ -94,9 +94,9 @@ export default function About() {
           </li>
         </ul>
       </Section>
-      <Section heading="Important dates" hasBg>
+      <Section heading="Abstract Submission Due" hasBg>
         <p className="paragraph">
-          1st circular <strong>2023/12/24</strong>
+          <strong>July 19, 2024</strong>
         </p>
       </Section>
       <Section heading="Contact">
