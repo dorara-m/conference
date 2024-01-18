@@ -43,6 +43,8 @@ button {
   margin-bottom: 24px;
   strong {
     font-weight: bold;
+    // fontファイルimport必要かも
+    font-family: "Roboto", sans-serif;
   }
 }
 ol {

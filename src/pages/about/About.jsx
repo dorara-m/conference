@@ -99,6 +99,11 @@ export default function About() {
           1st circular <strong>2023/12/24</strong>
         </p>
       </Section>
+      <Section heading="Contact">
+        <p className="paragraph">
+          <strong>gyroidiseverywhere@gmail.com</strong>
+        </p>
+      </Section>
     </Layout>
   );
 }
