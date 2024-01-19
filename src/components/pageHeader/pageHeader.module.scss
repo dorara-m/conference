@@ -8,7 +8,7 @@
     var(--color-main) 100%
   );
   @include mq() {
-    padding: 24px 0;
+    padding: 102px 0 24px;
   }
   h1 {
     font-size: 40px;

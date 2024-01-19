@@ -12,7 +12,7 @@
     var(--color-main) 100%
   );
   @include mq() {
-    min-height: calc(100vh - 78px);
+    padding-top: 78px;
   }
 
   &::before {
@@ -23,7 +23,7 @@
     height: 314px;
     background: url("../../../public/bg01.png") no-repeat;
     background-size: cover;
-    top: 14px;
+    top: 94px;
     right: 34px;
     opacity: 0.6;
     @include mq() {
