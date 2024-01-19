@@ -12,6 +12,7 @@
   color: #fff;
   &.fixed {
     background-color: #fff;
+    box-shadow: 0 0 5px rgba($color: #000000, $alpha: 0.3);
     color: var(--color-main);
     ul li {
       color: var(--color-text);
