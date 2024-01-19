@@ -7,19 +7,20 @@ export default function Header(props) {
   const [isFixed, setIsFixed] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      // スクロール位置
+      // スクロール量
       const scrollPos = window.scrollY;
-      // ヘッダー固定する位置は、ページヘッダーの高さ - ヘッダーの高さ
+      // ヘッダー固定位置は、ページヘッダーの高さ - ヘッダーの高さ
       const fixedPos =
         document.querySelector(".js-pageHeader").offsetHeight -
         document.querySelector("header").offsetHeight;
+      // スクロール量がヘッダー固定位置を超えたらヘッダーを固定
       if (scrollPos >= fixedPos) {
         setIsFixed(true);
       } else {
         setIsFixed(false);
       }
     };
-    // スクロールイベントを監視
+    // トップページは不要
     window.location.pathname !== "/" &&
       window.addEventListener("scroll", handleScroll);
     // コンポーネントのアンマウント時にイベントリスナーを削除
