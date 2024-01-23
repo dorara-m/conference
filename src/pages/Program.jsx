@@ -18,7 +18,7 @@ export default function Program() {
               "Ulrich Wiesner (Cornell)",
               "Gregory Grason (UMASS)",
               "Myfanwy Evans (Potsdam)",
-              // "Not yet confirmed. Matthias Saba (Adolphe Merkle Institute)",
+              "Matthias Saba (Fribourg)",
             ]}
           />
         </Section>
