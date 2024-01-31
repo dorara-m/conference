@@ -104,10 +104,16 @@ export default function About() {
           </li>
         </ul>
       </Section>
-      <Section heading="Abstract Submission Due" hasBg>
-        <p className="paragraph">
-          <strong>July 19, 2024</strong>
-        </p>
+      <Section heading="Important dates" hasBg>
+        <TextList
+          strong
+          list={[
+            "Registration (super early), May 31, 2024",
+            "Abstract submission due, July 19, 2024",
+            "Registration (early), July 31, 2024",
+            "Registration (late), May 31, 2024",
+          ]}
+        />
       </Section>
       <Section heading="Contact">
         <p className="paragraph">

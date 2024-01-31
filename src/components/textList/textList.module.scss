@@ -6,4 +6,10 @@
   li + li {
     margin-top: 8px;
   }
+  &.-strong {
+    padding-left: 0;
+    list-style: none;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
 }

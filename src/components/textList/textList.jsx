@@ -1,8 +1,14 @@
+import clsx from "clsx";
 import styles from "./textList.module.scss";
 
-export default function pageHeader(props) {
+export default function TextList(props) {
   return (
-    <ul className={styles.list}>
+    <ul
+      className={clsx({
+        [styles.list]: true,
+        [styles["-strong"]]: props.strong,
+      })}
+    >
       {props.list.map((item, index) => {
         return <li key={index}>{item}</li>;
       })}
