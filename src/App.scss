@@ -29,6 +29,9 @@ button {
   color: var(--color-text);
   line-height: 1.5;
   letter-spacing: 0.04em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
@@ -38,7 +41,7 @@ button {
   margin-left: auto;
 }
 
-// 検討
+// コンポーネント化検討
 .paragraph {
   & + & {
     margin-top: 24px;
