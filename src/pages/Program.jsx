@@ -10,7 +10,7 @@ export default function Program() {
           <TextList
             list={[
               "Randall Kamien (UPENN) - Materials Geometry",
-              "Stephen Hyde (ANU) - Triply Periodic Minimal Surfaces",
+              "Stephen Hyde (Sydney & ANU) - Triply Periodic Minimal Surfaces",
             ]}
           />
         </Section>

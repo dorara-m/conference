@@ -28,7 +28,7 @@ export default function Registration() {
             <tr>
               <td>Regular (late)</td>
               <td>35,000 JPY</td>
-              <td>August 1 - September 31 (participation only)</td>
+              <td>August 1 - September 30 (participation only)</td>
             </tr>
             <tr>
               <td>Student (super early)</td>
@@ -43,7 +43,12 @@ export default function Registration() {
             <tr>
               <td>Student (late)</td>
               <td>12,000 JPY</td>
-              <td>August 1 - September 31 (participation only)</td>
+              <td>August 1 - September 30 (participation only)</td>
+            </tr>
+            <tr>
+              <td>Accompany person</td>
+              <td>10,000 JPY</td>
+              <td>-</td>
             </tr>
           </tbody>
         </table>

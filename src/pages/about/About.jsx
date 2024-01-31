@@ -73,7 +73,7 @@ export default function About() {
         <Section heading="International Advisors" h3>
           <TextList
             list={[
-              "Stephen Hyde (ANU)",
+              "Stephen Hyde (Sydney & ANU)",
               "Randall Kamien (UPENN)",
               "Yushu Matsushita (Toyota Riken)",
               "Gerd Schröder‐Turk (Murdoch)",
