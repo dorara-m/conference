@@ -94,13 +94,31 @@ export default function About() {
       <Section heading="Support">
         <ul className={styles.support}>
           <li>
-            <img src="/support/logo01.png" alt="" />
+            <a
+              href="https://www.toyotariken.jp/en/info/#institute"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/support/logo01.png" alt="" />
+            </a>
           </li>
           <li>
-            <img src="/support/logo02.png" alt="" />
+            <a
+              href="https://www.simonsfoundation.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/support/logo02.png" alt="" />
+            </a>
           </li>
           <li>
-            <img src="/support/logo03.png" alt="" />
+            <a
+              href="https://www.kindai.ac.jp/english/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="/support/logo03.png" alt="" />
+            </a>
           </li>
         </ul>
       </Section>

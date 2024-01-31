@@ -4,7 +4,14 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 16px;
+
   @include mq() {
     grid-template-columns: repeat(4, 1fr);
+    a {
+      transition: 0.3s;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
   }
 }
