@@ -52,6 +52,7 @@ export default function Registration() {
             </tr>
           </tbody>
         </table>
+        <div className={styles.tableCaption}>*All-inclusive</div>
       </Section>
     </Layout>
   );
