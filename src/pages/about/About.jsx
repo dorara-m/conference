@@ -13,7 +13,7 @@ export default function About() {
           renowned for his discovery of the gyroid, an infinitely connected
           triply periodic minimal surface. He was born on December 11, 1924, in
           Mount Vernon, New York, and unfortunately, he passed away on July 26,
-          2023, in Carbondale, Illinois, United States.
+          2023, in Carbondale, Illinois, United States†.
         </p>
         <p className="paragraph">
           In commemoration of his 100th birth anniversary, we are organizing a
@@ -57,6 +57,16 @@ export default function About() {
           collaboration, the symposium aims to transform and advance gyroid
           research worldwide into a new dimension of comprehensive research
           areas.
+        </p>
+        <p className="paragraph -caption">
+          <a
+            href="https://pubs.aip.org/physicstoday/online/42714/Alan-Hugh-Schoen?searchresult=1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            †Stephen T. Hyde and Gerd E Schroeder-Turk, Physics Today, Jan.
+            2024.
+          </a>
         </p>
       </Section>
       <Section heading="Organization" hasBg>

@@ -40,11 +40,19 @@ button {
 
 // 検討
 .paragraph {
-  margin-bottom: 24px;
+  & + & {
+    margin-top: 24px;
+  }
   strong {
     font-weight: bold;
     // fontファイルimport必要かも
     font-family: "Roboto", sans-serif;
+  }
+  &.-caption {
+    font-size: 0.8em;
+  }
+  a {
+    text-decoration: underline;
   }
 }
 ol {
