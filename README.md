@@ -7,4 +7,5 @@ npm run start
 ## how to up
 
 npm run build
-でビルド後、ルートにあるhtaccessファイルをコピーして設置してください。
+でビルド後、ルートにあるhtaccessファイルをbuildディレクトリ直下にコピーして設置してください。
+サーバーにupするのはbuildディレクトリ配下の全てです。
