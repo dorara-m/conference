@@ -129,7 +129,7 @@ export default function About() {
             "Registration (super early), May 31, 2024",
             "Abstract submission due, July 19, 2024",
             "Registration (early), July 31, 2024",
-            "Registration (late), May 31, 2024",
+            "Registration (late), September 30, 2024",
           ]}
         />
       </Section>
