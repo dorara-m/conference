@@ -1,28 +1,28 @@
 export const menuList = [
   {
     name: "About",
-    path: "/about",
+    path: "/about/",
   },
   {
     name: "Program",
-    path: "/program",
+    path: "/program/",
   },
   {
     name: "Abstract Submission",
-    path: "/abstract",
+    path: "/abstract/",
     forHeader: "Abstract <br/>Submission",
   },
   {
     name: "Registration & Accomodation",
-    path: "/registration",
+    path: "/registration/",
     forHeader: "Registration & <br/>Accomodation",
   },
   {
     name: "Venue",
-    path: "/venue",
+    path: "/venue/",
   },
   {
     name: "Photos",
-    path: "/photos",
+    path: "/photos/",
   },
 ];
