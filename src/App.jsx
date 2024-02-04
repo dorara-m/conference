@@ -10,7 +10,7 @@ import Program from "./pages/Program";
 import Abstract from "./pages/Abstract";
 import Registration from "./pages/registration/Registration";
 import Venue from "./pages/venue/Venue";
-import Photos from "./pages/Photos";
+import Photos from "./pages/Photos/Photos";
 
 export default function App() {
   const isPC = window.innerWidth >= 768;
