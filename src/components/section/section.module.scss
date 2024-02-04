@@ -4,9 +4,10 @@
   padding: 40px 0;
   h2 {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 24px;
     color: var(--color-sub);
+    font-family: var(--font-heading);
     @include mq() {
       font-size: 40px;
     }
@@ -25,7 +26,7 @@
     margin-bottom: 24px;
     h3 {
       font-size: 18px;
-      font-weight: bold;
+      font-family: var(--font-heading);
       margin-bottom: 16px;
       @include mq() {
         font-size: 24px;

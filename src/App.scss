@@ -1,7 +1,9 @@
 @import "./styles/functions.scss";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
 
 :root {
   --font-en: Times, serif;
+  --font-heading: 'Oswald', sans-serif;
   --color-text: #454142;
   --color-border: #a2a3a8;
   --color-main: rgb(255, 42, 94);

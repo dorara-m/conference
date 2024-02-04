@@ -42,7 +42,9 @@ export default function Header(props) {
             <img src="/gyroid-logo.png" alt="" />
           </div>
           <div className={styles.head}>Gyroid is everywhere</div>
-          <div className={styles.sub}>November 19-22, 2024 Osaka, Japan</div>
+          <div className={styles.sub}>
+            Alan Schoen 100th Anniversary 11/19-22/2024
+          </div>
         </a>
         <div className={styles.menu}>
           <ul>
